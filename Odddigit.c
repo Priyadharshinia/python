@@ -14,7 +14,7 @@ while(rev!=0)
 r=rev%10;
 if(r%2!=0)
 {
-printf("%d\t",r);
+printf("%d ",r);
 }
 else
 {
