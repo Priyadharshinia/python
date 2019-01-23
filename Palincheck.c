@@ -18,11 +18,11 @@ p=p/10;
 }
 if(s==rev)
 {
-printf("yes");
+printf("YES");
 }
 else
 {
-printf("no");
+printf("NO");
 }
 return 0;
 }
