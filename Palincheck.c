@@ -1,15 +1,16 @@
 #include<stdio.h>
+#include<stdlib.h>
 int main()
 {
-int n,s=0,rev=0,p,d,r;
-scanf("%d",&n);
+int long n,s=0,rev=0,d,r;
+scanf("%ld",&n);
 while(n>0)
 {
 r=n%10;
 s=s+r;
 n=n/10;
 }
-s=p;
+int p=s;
 while(p!=0)
 {
 d=p%10;
