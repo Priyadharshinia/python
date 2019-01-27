@@ -1,13 +1,10 @@
 #include<stdio.h>
 int main()
 {
-int a,b,c,d,i;
+int a,b,c;
 scanf("%d",&c);
 scanf("%d%d",&a,&b);
-for(i=a+1;i<b;i++)
-{ 
-d=a+1;
-if(d==c) 
+if(c>a&&c<b) 
 { 
 printf("yes");
 }
@@ -18,4 +15,3 @@ printf("no");
 return 0;
 }
 
-}
