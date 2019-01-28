@@ -15,5 +15,5 @@ mi=a[i];
 }
 }
 printf("%d",mi);
-return 0
+return 0;
 }
