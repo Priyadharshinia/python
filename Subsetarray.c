@@ -22,7 +22,7 @@ count++;
 }}
 if(count==b)
 {
-printf("yes");
+printf("YES");
 }
 else 
 {
