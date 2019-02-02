@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-char a[100];
+char a[1000];
 int count=0,i;
 gets(a);
 for(i=0;a[i]!='\0';i++) 
