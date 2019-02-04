@@ -7,9 +7,10 @@ int main()
   {
   	for(j=n;j>=i;j--)
   	{
-  		printf("1");
+  		printf("1 ");
   	}
   	printf("\n");
   }
+  printf("\n");
   return 0;
 }
