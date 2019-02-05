@@ -4,7 +4,7 @@ int main(void)
 	char a[100];
 int i,n,count=0,j;
    scanf("%s",a); 
-for(i=1;a[i]!='\0';i++)
+for(i=0;a[i]!='\0';i++)
 {
 for(j=i+1;a[j]!='\0';j++) 
 { 
