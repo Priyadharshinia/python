@@ -4,7 +4,7 @@ int main(void)
 int a,b,pro,i,count=0;
 scanf("%d%d",&a,&b); 
 pro=a*b; 
-for(i=1;i<=pro;i++) 
+for(i=0;i<=pro;i++) 
 { 
 if(i*i==pro) 
 {
