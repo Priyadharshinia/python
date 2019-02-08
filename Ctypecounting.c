@@ -4,7 +4,7 @@ int main(void)
 {
 char c[1000];
 int i,count=0; 
-scanf("%s",c);
+gets(c);
 for(i=0;c[i]!='\0';i++) 
 { 
 if(isdigit(c[i]))
