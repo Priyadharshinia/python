@@ -10,4 +10,4 @@ for i in range(n):
 if r==s:
     print('YES')
 else:
-    print('NO'
+    print('NO')
